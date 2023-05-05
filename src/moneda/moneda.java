@@ -56,6 +56,9 @@ public class moneda {
             System.out.println("");
             double valorPesos = entradaDato.nextDouble();
             System.out.println("");
+            monedas.get(ID).setNombre(Nombre);
+            monedas.get(ID).setSimbolo(Simbolo);
+            monedas.get(ID).setValorPesos(valorPesos);
             System.out.println("Los datos de la moneda se han actualizado exitosamente");   
         }
         public static void Eliminar(){
